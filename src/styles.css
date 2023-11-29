@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-bar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 4%;
+    
+  }
+  .navbar_brand{
+    width: 25%;
+    padding: 2% 5%;
+  }
+  
+  .brand_logo{
+    width: 15vh;
+    max-height: 3vh;
+ }
+
+  .navbar__nav__items {
+    width: 75%;
+    padding:2% 5%;
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav__item a {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+}
+
+.aboutcontent{
+  background-color:rgba(237,225,209,255);
+  width: 135%;
+  height: 85%;
+  display: grid;
+  padding: 25% 3%;
+}
+
+.aboutimage img{
+   width: 100%;
+   height: 85%;
+}
+
+.aboutsen{
+  font-family: system-ui;
+  font-size: 131%;
+  text-align: center;
+}
+
+.Quote{
+  margin-top: 30px;
+  font-size: 125%;
+  color: chocolate;
+}
+
+.productcontent{
+  text-align: center;
+  padding: 12% 3%;
+  background-color: grey;
+  width: 135%;
+  height: 135vh;
+}
+
+.producttitle{
+  margin: 15% 3%;
+  color: darkgreen;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.carousel-item{
+  padding: 3% 12%;
+}
+
+.card{
+   margin: 1em;
+   border-radius: 0;
+   box-shadow: 3px 6px 9px 0 black;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 6vh;
+  height: 6vh;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+
+.img-wrapper{
+  max-width: 100%;
+  height: 18em;
+}
+
+.img-wrapper img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.card-body{
+  background-color: lightpink;
+  font-size: 50px;
+  font-family: monospace;
+ }
+
+ .card-title{
+  font-size: 40px;
+  font-family: monospace;
+ }
+
+.calculatorcontent{
+  padding: 25% 6%;
+  background-color: lightblue;
+  width: 135%;
+  height: 127vh;
+  display: grid;
+}
+
+.calculatorcontent h2{
+  text-align: center;
+  font-size: 50px;
+  font-family:monospace;
+}
+
+.entry{
+   text-align: center;
+   font-size: 30px;
+   font-family: Gill Sans;
+}
+
+.entry input{
+  background-color: burlywood;
+  width: 10%;
+  height: 10%;
+  font-size: large;
+}
+
+.entry button{
+  width: 35%;
+  height: 12%;
+  font-size: 30px;
+  border-radius: 30px;
+  background-color: green;
+}
+
+#result{
+  font-family: sans-serif;
+  font-size: 30px;
+  color:orange;
+}
+
+.contactcontent{
+  padding: 25% 6%;
+  background-color: lightcoral;
+  width: 135%;
+  height: 80vh;
+}
+
+.contact-title{
+  text-align: center;
+  color: blueviolet;
+  font-size: 50px;
+  font-family:serif;
+}
+
+.contact_item{
+  margin: 12% 3%;
+   display: flex;
+}
+
+.item{
+  max-height: 100%;
+  display: block;
+  border: 2px solid white;
+  border-radius: 25px;
+  flex: 0 0 calc(100%/2);
+  padding: 2% 1%;
+  margin: 2%;
+  text-align: center;
+}
+
+.item-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.item button{
+   margin-top: 25%;
+}
+
+.item iframe{
+  border-radius: 30px;
+  width: 100%;
+  height: 80%;
+}
+
+footer{
+  width: 135%;
+  background-color: black;
+  font-size: 25px;
+  font-family: serif;
+  color: yellow;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .nav-bar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 4%;
+    
+  }
+  .navbar_brand{
+    width: 30%;
+    padding: 1% 5%;
+  }
+  
+  .brand_logo{
+    width: 25vh;
+    max-height: 3vh;
+ }
+
+  .navbar__nav__items {
+    width: 70%;
+    padding:1% 5%;
+    display: flex;
+    gap: 60px;
+  }
+
+  .nav__item a {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+.aboutcontent{
+  background-color:rgba(237,225,209,255);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 15% 6%;
+}
+
+.aboutimage {
+  margin-top: 35px;
+  width: 50%;
+  height: 100%;
+}
+
+.aboutimage img{
+  width: 100%;
+  height: 100%;
+}
+
+.aboutsen{
+  width: 50%;
+  margin: 20px;
+  font-family: system-ui;
+  font-size: 131%;
+  text-align: center;
+}
+
+.Quote{
+  margin-top: 25px;
+  color: chocolate;
+}
+
+.productcontent{
+  text-align: center;
+  padding: 12% 3%;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.producttitle{
+  margin: 0% 0%;
+  color: darkgreen;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.carousel-inner{
+   padding: 1em;
+   display: flex;
+}
+
+.carousel-item{
+  padding: 0% 0%;
+  display: block;
+  margin-right: 0;
+  flex: 0 0 calc(100%/2) ;
+}
+
+.img-wrapper{
+   max-width: 100%;
+   height: 23vw;
+}
+
+.card-body{
+ background-color: lightpink;
+ font-size: 30px;
+ font-family: monospace;
+}
+
+.card-title{
+  font-size: 25px;
+  font-family: monospace;
+ }
+
+.calculatorcontent{
+  padding: 12% 6%;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+}
+
+.calculatorcontent h2{
+  font-size: 50px;
+  font-family:monospace;
+}
+
+.entry{
+   text-align: center;
+   font-size: 30px;
+   font-family: Gill Sans;
+}
+
+.entry input{
+  background-color: burlywood;
+  width: 10%;
+  height: 18%;
+}
+
+.entry button{
+  width: 35%;
+  height: 18%;
+  font-size: 30px;
+  border-radius: 30px;
+  background-color: green;
+}
+
+#result{
+  font-family: sans-serif;
+  font-size: 30px;
+  color:orange;
+}
+
+.contactcontent{
+  padding: 12% 6%;
+  background-color: lightcoral;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-title{
+  text-align: center;
+  color: blueviolet;
+  font-size: 50px;
+  font-family:serif;
+}
+
+.contact_item{
+   text-align: center;
+   font-size: 30px;
+   font-family: Gill Sans;
+}
+
+.item button{
+  margin-top: 15%;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  font-size: 25px;
+  font-family: serif;
+  color: yellow;
+  text-align: center;
+}
+}
+

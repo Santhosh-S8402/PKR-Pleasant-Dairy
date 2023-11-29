@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/contactstyles.css">
+    <title> Contact </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-image">
+            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+        </div>
+        <h2>Send me a message </h2>
+        <form class="contact-form" action="#">
+            <input type="text" name="Name" placeholder="   Full Name *" required>
+            <input type="email" name="Email" placeholder="   Email *" required>
+            <input type="tel" name="PhoneNumber" placeholder="   [10-digit] Mobile number *" pattern="[0-9]{10}" required>
+            <input type="text" name="District" placeholder="   District *" required>
+            <textarea name="Message" placeholder=" Message *" required></textarea>
+            <button type="submit" name="send"> Send </button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./src/contactscript.js"></script>
+</body>
+
+</html>
